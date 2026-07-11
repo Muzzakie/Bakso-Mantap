@@ -317,14 +317,14 @@ header.top .tagline{
 }
 .formulir input[type=submit]:hover{ background:var(--kuah); transform:translateY(-2px); }
 
-.gallery{ display:flex; flex-wrap:wrap; justify-content:center; gap:22px; margin:22px 0 10px; }
+.gallery{ display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:22px; margin:22px 0 10px; }
 .gallery figure{
     margin:0;
     background:var(--putih);
     padding:10px 10px 16px;
     border-radius:16px;
     box-shadow:var(--bayang);
-    width:300px;
+    width:100%;
     transition:0.25s;
 }
 .gallery figure:hover{ transform:translateY(-5px); }
@@ -406,6 +406,10 @@ footer.bawah span{ color:var(--kuning); font-weight:700; }
 <figure>
 <img src="esteh.jpg" alt="Es teh manis segar">
 <figcaption>Es Teh Manis</figcaption>
+</figure>
+<figure>
+<img src="mie ayam bakso.jpg" alt="Mie ayam bakso">
+<figcaption>Mie Ayam Bakso</figcaption>
 </figure>
 </div>
 </div>
